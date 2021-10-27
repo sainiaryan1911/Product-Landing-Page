@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Product Landing Page</title>
+    <link rel="stylesheet" href="CSS/desktop.css">
+    <link rel="stylesheet" href="CSS/mobile.css" media="screen and (max-width:800px)">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+
+        <!-- Logo Image -->
+        <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="Logo"
+            id="header-img">
+
+        <!-- Navbar -->
+        <nav id="nav-bar">
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#how-it-works" class="nav-link">How It Works</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Heading -->
+        <h2>Handcrafted, home-made masterpieces</h2>
+
+        <!-- Email Form -->
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            <input type="submit" id="submit" value="Get Started">
+        </form>
+
+        <!-- Features Section -->
+        <section id="features">
+            <p class="feature">Premium Materials</p>
+            <p class="feature-text">Our trombones use the shiniest brass which is sourced locally. This will increase
+                the longevity of your purchase.</p>
+            <p class="feature">Fast Shipping</p>
+            <p class="feature-text">We make sure you recieve your trombone as soon as we have finished making it. We
+                also provide free returns if you are not satisfied.</p>
+            <p class="feature">Quality Assurance</p>
+            <p class="feature-text">For every purchase you make, we will ensure there are no damages or faults and we
+                will check and test the pitch of your instrument.</p>
+        </section>
+
+        <!-- Video Section -->
+        <section id="how-it-works">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing">
+            <div class="product">
+                <p class="product-name">tenor trombone</p>
+                <p class="price">$600</p>
+                <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, nisi.</p>
+                <button>Select</button>
+            </div>
+            <div class="product">
+                <p class="product-name">bass trombone</p>
+                <p class="price">$900</p>
+                <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, nisi.</p>
+                <button>Select</button>
+            </div>
+            <div class="product">
+                <p class="product-name">valve trombone</p>
+                <p class="price">$1200</p>
+                <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, nisi.</p>
+                <button>Select</button>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <ul>
+            <li>Privacy</li>
+            <li>Terms</li>
+            <li>Contact</li>
+        </ul>
+        <p id="footer-text">Copyright 2016, Original Trombones</p>
+    </footer>
+</body>
+
+</html>

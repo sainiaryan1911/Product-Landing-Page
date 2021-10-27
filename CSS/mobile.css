@@ -1,0 +1,54 @@
+/* Header */
+#header {
+  flex-direction: column;
+}
+
+/* Header Image */
+#header-img {
+  align-self: center;
+}
+
+/* Navbar */
+#nav-bar {
+  flex-direction: column;
+}
+.nav-link {
+  margin: 0.5rem 0;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+/* Features */
+#features {
+  text-align: center;
+  width: 100%;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+/* Video */
+#video {
+  width: 90%;
+  margin: 2rem 0;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+/* Pricing */
+#pricing {
+  flex-direction: column;
+  width: 19rem;
+}
+.product {
+  margin: 0.5rem 0;
+}
+.description {
+  width: 48%;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+/* Footer */
+footer {
+  align-items: center;
+}
